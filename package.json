@@ -34,7 +34,7 @@
     "prestart": "yarn run rebuild",
     "start": "node -r source-map-support/register .",
     "clean": "lb-clean dist *.tsbuildinfo .eslintcache",
-    "rebuild": "yarn run clean && yarn run build"
+    "rebuild": "npm install && yarn run clean && yarn run build"
   },
   "repository": {
     "type": "git",
